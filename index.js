@@ -10,7 +10,7 @@ app.use(express.json())
 app.use('/users', usersRoutes)
 
 app.get('/', (req, res) => {
-    res.send("Hello From Bhavika!")
+    res.send("Welcome to the User Interface!")
 })
 
 app.listen(PORT, () => {
